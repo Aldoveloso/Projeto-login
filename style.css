@@ -1,0 +1,181 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 150, 140, 0.626);
+    height: 100vh;
+}
+main{ height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+    
+   
+   
+}
+section#Login{
+    background-color: white;
+    width:330px;
+    height: 610px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.399);
+    overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function:ease;
+   
+    
+   
+    
+    
+}
+div#Login > h1{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    
+}
+div#Login > p{
+    font-size: 1em;
+    text-align: center;
+    adding: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+form > div#usuario{
+    background-color: blueviolet;
+    display: block;
+    width: 94%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    margin-bottom: 5px;
+    border: 5px solid blueviolet;
+    margin: auto;
+    margin-bottom: 5px;
+}
+div#usuario > label {
+    display: none;
+}
+div#usuario > span {
+    color: white;
+   
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+
+
+}
+div#usuario > input {
+    background-color: rgba(255, 135, 225, 0.87);
+    font-size: 1em;
+     height: 100%;
+     border: 0px;
+     border-radius: 8px;
+     padding: 2px;
+     width: calc(100% - 65px);
+     transform: translateY(-10px);
+
+}
+
+div#senha > span {
+    color: white;
+  
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+
+
+}
+    div#senha > input {
+        background-color: rgba(255, 135, 225, 0.87);
+        font-size: 1em;
+         height: 100%;
+         border: 0px;
+         border-radius: 8px;
+         padding: 2px;
+         width: calc(100% - 65px);
+         transform: translateY(-10px);
+    }
+
+
+div#senha > label{
+    display: none;
+
+}
+form > div#senha{
+    background-color: blueviolet;
+    display: block;
+    width: 94%;
+    border-radius: 5px;
+    margin: 5px 0px;
+    margin-bottom: 5px;
+    height: 40px;
+    border: 5px solid blueviolet;
+    margin: auto;
+    margin-bottom: 5px;
+    
+    
+}
+
+
+
+div#foto{
+    display: block;
+    background-image: url(imagens/pexels-pixabay-277770\ \(1\).jpg);
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+form > input[type=submit]{ 
+    display: block;
+    font-size: 1em;
+    width: 96%;
+    margin: auto;
+    height: 40px;
+    color: white;
+    background-color: rgba(185, 1, 246, 0.87);
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+form > input[type=submit]:hover {
+    background-color: rgba(77, 0, 103, 0.87); ;
+}
+
+form > a.botão{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    
+    height: 40px;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    color:rgba(185, 1, 246, 0.87);
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 96%;
+    margin: auto; 
+
+}
+form > a.botão:hover{
+    background-color: rgba(122, 4, 161, 0.87);
+    color: white;
+}
+
+
+
+
